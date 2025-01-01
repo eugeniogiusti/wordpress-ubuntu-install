@@ -66,4 +66,4 @@ Switch to the root user if you don't want to enter the password during the proce
 
 ## Notes
 
-- This script is intended for fresh Ubuntu 22.04 installations and may not work correctly on other systems.
+- This script is intended for fresh Ubuntu 22.04 installations.
