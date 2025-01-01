@@ -1,2 +1,52 @@
 # wordpress-ubuntu-install
 This repository contains a bash script that automates the installation of WordPress on Ubuntu 22.04
+
+# Automated WordPress Installation
+
+This bash script automates the installation of WordPress on Ubuntu 22.04, including necessary dependencies, database setup, and basic configuration.
+
+## Features
+
+- Installs Apache, PHP, MySQL, and required PHP extensions
+- Configures MySQL securely and creates a WordPress database and user
+- Downloads and extracts the latest WordPress version
+- Sets up an Apache VirtualHost for WordPress
+- Configures WordPress settings in `wp-config.php`
+- Provides the server IP for easy access to the new WordPress site
+
+## Usage
+
+1. Download the script and make it executable:
+wget https://example.com/install_wordpress.sh
+chmod +x install_wordpress.sh
+
+2. Run the script with sudo:
+sudo ./install_wordpress.sh
+
+3. After the script completes, visit your local IP address to finish the WordPress setup.
+
+![image](https://github.com/user-attachments/assets/13956f7b-e419-42e9-a07d-1bbbba4b95c4)
+
+
+![image](https://github.com/user-attachments/assets/e67d9e09-8332-4e9f-b88b-d8db4491a557)
+
+
+![image](https://github.com/user-attachments/assets/8801511b-42c5-4c25-bfed-972bf5a75ef1)
+
+
+![image](https://github.com/user-attachments/assets/00a7e62c-c4ea-4801-84a5-7eb1959867d8)
+
+
+![image](https://github.com/user-attachments/assets/f2dd46bb-e551-48a7-9dd9-be732c9668fb)
+
+
+
+
+## Configuration
+
+- The WordPress database name, user, and password are set in the script. Modify them as needed.
+- The Apache VirtualHost is configured with `example.com`. Replace it with your domain.
+
+## Notes
+
+- This script is intended for fresh Ubuntu 22.04 installations and may not work correctly on other systems.
