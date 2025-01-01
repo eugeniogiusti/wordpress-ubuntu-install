@@ -16,14 +16,31 @@ This bash script automates the installation of WordPress on Ubuntu 22.04, includ
 
 ## Usage
 
-1. Download the script and make it executable:
-wget https://example.com/install_wordpress.sh
-chmod +x install_wordpress.sh
+## How to Use
 
-2. Run the script with sudo:
-sudo ./install_wordpress.sh
+1. **Update the system & clone the Repository**  
+   Download the script to your system or clone the repository:
+   ```bash
+   apt update && apt upgrade
+   
+   git clone https://github.com/eugeniogiusti/wordpress-ubuntu-install.git
+   
+   cd wordpress-ubuntu-install
 
-3. After the script completes, visit your local IP address to finish the WordPress setup.
+
+2. Grant Execution Permissions
+Give the script executable permissions:
+   ```bash
+   chmod +x wordpress.sh
+
+
+3. Run the Script &
+Switch to the root user if you don't want to enter the password during the process:
+   ```bash
+   sudo su
+   ./wordpress.sh
+
+4. After the script completes, visit your local IP address to finish the WordPress setup.
 
 ![image](https://github.com/user-attachments/assets/13956f7b-e419-42e9-a07d-1bbbba4b95c4)
 
