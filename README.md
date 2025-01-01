@@ -72,3 +72,19 @@ Switch to the root user if you don't want to enter the password during the proce
 ## Notes
 
 - This script is intended for fresh Ubuntu 22.04 installations.
+- During the installation of some libraries, you might see a message like:
+Daemons using outdated libraries. Which services should be restarted?(screenshoot below)"
+
+This message indicates that some libraries have been updated, but the daemons using them
+are still running with the previous version loaded in memory. It is not necessary to
+restart the services immediately, as the system will continue to function normally with
+the old libraries.
+To proceed:
+1. Press the TAB key to select "OK" and confirm.
+2. Continue with the installation without restarting the services.
+If you encounter any issues or instability later, try restarting the virtual machine to
+ensure the services use the latest versions of the libraries.
+
+![image](https://github.com/user-attachments/assets/afe683b8-2d5b-4327-b68d-29ed46a784c2)
+
+Enjoy your Wordpress
