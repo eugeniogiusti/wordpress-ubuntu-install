@@ -15,7 +15,7 @@ This bash script automates the installation of WordPress on Ubuntu 22.04, includ
 - Provides the server IP for easy access to the new WordPress site
 
 ### Recommended Hardware Requirements for Virtual machine
-- **50GB SSD** (SSD virtual hard disk).
+- **50GB SSD**
 - **4GB RAM**.
 - **2 vCPUs**.
 
