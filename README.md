@@ -7,12 +7,12 @@ This bash script automates the installation of WordPress on Ubuntu 22.04, includ
 
 ## Features
 
-- Installs Apache, PHP, MySQL, and required PHP extensions
-- Configures MySQL securely and creates a WordPress database and user
-- Downloads and extracts the latest WordPress version
-- Sets up an Apache VirtualHost for WordPress
+- Installs Apache, PHP, MySQL, and required PHP extensions.
+- Configures MySQL securely and creates a WordPress database and user.
+- Downloads and extracts the latest WordPress version.
+- Sets up an Apache VirtualHost for WordPress.
 - Configures WordPress settings in `wp-config.php`
-- Provides the server IP for easy access to the new WordPress site
+- Provides the server IP for easy access to the new WordPress site.
 
 ### Recommended Hardware Requirements for Virtual machine
 - **50GB SSD**
