@@ -72,13 +72,6 @@ Switch to the root user if you don't want to enter the password during the proce
 ## Notes
 
 - This script is intended for fresh Ubuntu 22.04 installations.
-- If you decide to change the default database password, you must update it in two places within the code:
-
-    In the code block titled "# Create WordPress database, user and password" (around line 23), where the database, user, and password are set up.
-
-    In the code block titled "# Configure wp-config.php" (around line 64), where the password is inserted into the WordPress configuration file.
-
-Make sure to update both locations to avoid connection errors.
 
 - During the installation of some libraries, you might see a message like:
 Daemons using outdated libraries. Which services should be restarted?(screenshoot below)"
