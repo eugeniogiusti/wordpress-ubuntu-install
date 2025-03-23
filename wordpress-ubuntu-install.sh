@@ -17,7 +17,7 @@ y
 y
 EOF
 
-# Create WordPress database, user and password # change the password if necessary, line 23, change it also at the block # Configure wp-config.php at the line 59
+# Create WordPress database
 mysql -u root <<EOF
 CREATE DATABASE wordpress_db DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 CREATE USER 'wordpress_user'@'localhost' IDENTIFIED BY 'Password2025!';
@@ -56,7 +56,7 @@ cat > /etc/apache2/sites-available/wordpress.conf <<EOF
 </VirtualHost>
 EOF
 
-# Configure wp-config.php # change the password if you've changed previously at the line 64
+# Configure wp-config.php 
 cd /var/www/wordpress
 cp wp-config-sample.php wp-config.php
 sed -i "s/database_name_here/wordpress_db/g" wp-config.php
